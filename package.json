@@ -1,0 +1,26 @@
+{
+  "name": "kraken-price-history",
+  "version": "1.0.0",
+  "description": "Meow",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeriTheFox/Kraken-price-history.git"
+  },
+  "author": "Geri",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/GeriTheFox/Kraken-price-history/issues"
+  },
+  "homepage": "https://github.com/GeriTheFox/Kraken-price-history#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mysql": "^2.18.1",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.2",
+    "util.promisify": "^1.0.1"
+  }
+}
