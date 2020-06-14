@@ -5,7 +5,6 @@ var db = require('./MySQuirreL.js');
 
 async function SAVE(price){
     const result = await db.query("INSERT INTO "+process.env.SQL_TABLE+" (price) VALUES (?)",[price]);
-    console.log(price);
 }
 
 cron.schedule("* * * * * *", function() {
