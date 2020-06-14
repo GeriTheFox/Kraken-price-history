@@ -14,7 +14,7 @@ SQL_N='username'
 SQL_PW='passwd'
 SQL_P='port'
 SQL_H='host'
-SQL_DB='satabase'
+SQL_DB='database'
 SQL_TABLE='table'
 ```
 
